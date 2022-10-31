@@ -1,0 +1,39 @@
+28th february
+
+1.	isNan()
+2.	let printMyInputES6Short = user_input => console.log(user_input)
+3.	//Checking equality of 5 number type and 5 string type
+console.log("5=='5' ", 5=='5')
+console.log("5==='5' ", 5==='5')
+console.log("5===5 ", 5===5)
+
+console.log("5 != 5 ", 5 !== 5)
+console.log("5 != 6 ", 5 != 6)
+console.log("5 != '5' ", 5 !== '5')
+
+4.	foreach()
+	
+	myArray.forEach(x => {
+    console.log(x)
+})
+
+
+5.	for (const [idx, value] of Object.entries(myArray)) {
+  console.log(idx," - ",value);
+
+
+6.Map object maps a key to a value. The keys have to be unique. The values can be string, int, float or any other valid javascript datatype. An empty Map object can be create with the new keyword.
+let myMap = new Map();
+
+//Here name is key and John is the value. 
+myMap.set("name","John")
+
+//Here age is the key and 22 is the value.
+myMap.set("Age",22)
+
+myMap.forEach((val,key) => {
+    console.log(key," - ",val)
+})
+
+
+7. parseInt()
